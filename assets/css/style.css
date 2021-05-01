@@ -1,5 +1,6 @@
 /* CSS vars to ctrl color palette and fonts */
 :root {
+
     /* color palette */
     --white: #ffffff;
     --seo: #d9dcd6;
@@ -8,8 +9,10 @@
     /* fonts */
     --font-body: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     --font-hdr-ftr: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
+/* CSS Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -62,6 +65,7 @@ p {
     font-size: 16px;
 }
 
+/* Class for HTML DIV for primary graphic. */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,6 +73,10 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    /* 
+        How would one add an ALT property for images referenced in CSS?
+        REF: https://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/F3
+     */
 }
 
 .float-left {
