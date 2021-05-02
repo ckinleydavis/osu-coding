@@ -106,6 +106,13 @@ p {
     background-color: #2589bd;
 }
 
+/* 
+.benefit {
+    margin-bottom: 32px;
+    color: var(--white);
+} */
+
+
 .benefit-lead {
     margin-bottom: 32px;
     color: var(--white);
